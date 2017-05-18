@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Task5</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="custom_view">Custom View</string>
+    <string name="choose">Choose me</string>
+</resources>

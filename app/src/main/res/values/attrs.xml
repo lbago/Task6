@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="circleColor" format="color" />
+    <attr name="circleLabel" format="string"></attr>
+    <attr name="labelColor" format="color"></attr>
+    <declare-styleable name="SmileView">
+        <attr name="colorEyesAndMouth" format="color" />
+        <attr name="colorFace" format="color" />
+    </declare-styleable>
+</resources>
