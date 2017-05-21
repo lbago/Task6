@@ -23,12 +23,14 @@ public class SecondFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_second, null);
         initializeData();
-        initializeAdapter();
+        
 
         final FloatingActionButton fab = (FloatingActionButton) view.findViewById(R.id.fab);
 
         rv = (RecyclerView) view.findViewById(R.id.recycler_view);
 
+        initializeAdapter();
+        
         LinearLayoutManager llm = new LinearLayoutManager(getContext());
         rv.setLayoutManager(llm);
         rv.setHasFixedSize(true);
